@@ -56,3 +56,16 @@ main {
     display: block;
     padding: 10px;
 }
+
+.formulario > h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.formulario > p {
+    font-size: 0.8em;
+}
+
+div > label {
+    font-size: 0.8em;
+}
