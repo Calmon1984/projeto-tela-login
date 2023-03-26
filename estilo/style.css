@@ -30,7 +30,6 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: #ffffff;
@@ -39,6 +38,7 @@ main {
     border-radius: 20px;
     box-shadow: 0px 0px 10px #0000007e;
 
+    transform: translate(-50%, -50%);
     transition: height 0.3s, width 0.3s;
     transition-timing-function: ease;
 }
@@ -68,15 +68,39 @@ main {
 
 .campo {
     background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     display: block;
     height: 40px;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 .campo > label {
     display: none;
+}
+
+
+#icone {
+    color: #ffffff;
+    ;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.box-text {
+    background-color: #49a09d;
+    font-size: 1em;
+    height: 100%;
+    width: 80%;
+    border: 0px;
+    border-radius: 8px;
+    transform: translateY(-12px);
+}
+
+.box-text:focus-within {
+    background-color: #ffffff;
 }
 
 div > label {
